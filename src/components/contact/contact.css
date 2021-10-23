@@ -1,0 +1,61 @@
+.contact {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    margin-top:-200px;
+    background:linear-gradient(
+        rgba(255,255,255,5),
+        rgba(255,255,255,0.000001)
+    ), url("https://images.pexels.com/photos/3727256/pexels-photo-3727256.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260");
+}
+.contactTitle {
+    font-size: 50px;
+    
+}
+.contactForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.contactForm >label{
+    font-size:25px;
+    margin:10px 0;
+    font-weight: 800;
+}
+.contactForm>input{
+    border-radius: 70px;
+    height: 25px;
+}
+.contactInput {
+    padding:10px;
+    background-color: white;
+    border:none;
+}
+.contactButton {
+    margin-top:20px;
+    height: 40px;
+    cursor: pointer;
+    background: linear-gradient(60deg, #25ff5f, #3acb34, #5daa55);
+    border:none;
+    color:white;
+    border-radius: 70px;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+}
+.contactInputMsg {
+    height: 40px;
+    width: 400px;
+    border-radius: 70px;
+    border: none;
+    padding:10px;
+}
+.contactForm > .contactInputMsg {
+    height: 50px;
+    width: 300px;
+}

@@ -38,40 +38,42 @@
     object-fit: cover;
   }
   
-  .a-award-img {
+  .a-us-img {
     width: 120px;
     height: 120px;
     border-radius: 20px;
   }
   
   .a-title {
-    font-weight: 400;
-    
+    font-weight: 700;
+    font-size:70px;
   }
   
   .a-sub {
     margin: 20px 0px;
+    font-size:50px;
   }
   
   .a-desc{
-      font-weight: 300;
+      font-weight: 600;
   }
   
-  .a-award{
+  .a-us{
       margin-top: 50px;
       display: flex;
       align-items: center;
       justify-content: space-between;
   }
   
-  .a-award-texts{
+  .a-us-texts{
       width: 70%;
   }
   
-  .a-award-title{
+  .a-us-title{
       font-weight: bold;
       color: #555;
       margin-bottom: 10px;
+      margin-top:-40px;
   }
   
   @media screen and (max-width:480px) {
@@ -89,7 +91,7 @@
         height: 30vh;
       }
   
-      .a-card.bg, .a-award {
+      .a-card.bg, .a-us {
         display: none;
       }
   

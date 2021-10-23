@@ -1,12 +1,11 @@
 import "./intro.css"
-import Me from "../../img/Me.png"
 const Intro = () => {
     return (
         <div className="i">
             <div className="i-sol">
                 <div className="i-sol-wrapper">
-                    <h2 className="i-giris">Merhaba, benim adim</h2>
-                    <h1 className="i-isim">Talimascit</h1>
+                    <h2 className="i-giris">Merhaba, biz</h2>
+                    <h1 className="i-isim">Talimascit takimi</h1>
                     <div className="i-baslik">
                         <div className="i-baslik-wrapper">
                             <div className="i-baslik-item">Bilgisayar Mühendisligi</div>
@@ -17,7 +16,7 @@ const Intro = () => {
                         </div>
                     </div>
                     <p className="i-aciklama">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officia atque soluta incidunt ipsum maxime.
+                        Bilgisayar muhendisligi 4.sinif ogrencileriyiz. CodeJam'e katilmaktan mutluluk duyuyoruz.
                     </p>
                 </div>
             </div>
@@ -25,7 +24,7 @@ const Intro = () => {
             <div className="i-sag">
                 <div className="i-bg">
                 </div>
-                 <img src={Me} alt="" className="i-foto" />
+                 <img src="https://cdn.discordapp.com/attachments/775808113889509396/901551538055548978/WhatsApp_Image_2020-12-07_at_21.46.23.jpeg" alt="" className="i-foto" />
                
             </div>
         </div>

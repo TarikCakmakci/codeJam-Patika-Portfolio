@@ -1,11 +1,11 @@
-import "./product.css"
+import "./product.css";
 
-const Product = () => {
-    return (
-        <div>
-            card
-        </div>
-    )
-}
+const Product = ({img,link}) => {
+  return (
+    <div className="p">
+     
+     </div>
+  );
+};
 
-export default Product
+export default Product;
