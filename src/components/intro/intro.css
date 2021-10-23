@@ -1,43 +1,49 @@
 .i{
     display: flex;
     height: 100vh;
-    
 }
+
 .i-sol{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
 .i-sag{
     flex: 1;
-
+    position:relative;
 }
-.i-sol-wrapper{
-    padding: 50px;
-    height: 50%;
-    
+
+.i-sol-wrapper {
+    margin-top:-150px;
+    padding:50px;
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .i-giris{
     font-size: 30px;
     font-weight: 300;
 }
+
 .i-isim{
     font-size: 60px;
     font-weight: bold;
 }
+
 .i-baslik{
     height: 50px;
     overflow: hidden;
 }
+
 .i-baslik-wrapper{
     height: 100%;
     animation: move 10s ease-in-out infinite alternate;
 }
+
 @keyframes move {
     25%{
         transform: translateY(-50px);
@@ -53,6 +59,7 @@
     }
     
 }
+
 .i-baslik-item{
     height: 50px;
     font-size: 30px;
@@ -60,5 +67,22 @@
     color: green;
     display: flex;
     align-items: center;
-
+}
+.i-aciklama {
+    font-size: 20px;
+}
+.i-foto {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    position: absolute;
+}
+.i-bg {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: #59b256;;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    right: 0;
 }
