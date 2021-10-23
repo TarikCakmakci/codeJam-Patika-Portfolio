@@ -1,7 +1,7 @@
 .i{
     display: flex;
+    height: 100vh;
     
-
 }
 .i-sol{
     flex: 1;
@@ -17,13 +17,17 @@
 .i-sol-wrapper{
     padding: 50px;
     height: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .i-giris{
     font-size: 30px;
     font-weight: 300;
 }
 .i-isim{
-    font-size: 90px;
+    font-size: 60px;
     font-weight: bold;
 }
 .i-baslik{
@@ -54,7 +58,6 @@
     font-size: 30px;
     font-weight: bold;
     color: green;
-    background-color:greenyellow;
     display: flex;
     align-items: center;
 
